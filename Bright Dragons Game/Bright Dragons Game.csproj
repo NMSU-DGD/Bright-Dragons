@@ -317,6 +317,7 @@
   <ItemGroup>
     <Compile Include="Assets\scripts\enemyControl.cs" />
     <Compile Include="Assets\scripts\PlayerController.cs" />
+    <Compile Include="Assets\scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
