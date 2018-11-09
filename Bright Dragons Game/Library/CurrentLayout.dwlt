@@ -564,7 +564,7 @@ MonoBehaviour:
     height: 327
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 85.08861273114142
+  lastFramingTime: 77.47348906666667
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
