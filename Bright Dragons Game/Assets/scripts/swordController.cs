@@ -2,27 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class swordController : MonoBehaviour
-{
+public class swordController : MonoBehaviour {
 
-    public int moveSpeed;
-    // Use this for initialization
-    void Start()
+	// Use this for initialization
+	void Start () {
+       // this.gameObject.SetActive(false);
+    }
+	
+	// Update is called once per frame
+	void Update () {
+      
+    }
+    public void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.gameObject.tag == "enemy")
+        {
+            Destroy(other.gameObject);
+        }
 
     }
+   
+    
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-       
 
-    }
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.name == "enemy") ;
-
-        Destroy(other.gameObject);
-    }
 }

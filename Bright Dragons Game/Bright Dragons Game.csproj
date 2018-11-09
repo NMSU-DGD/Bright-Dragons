@@ -309,10 +309,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\scripts\arrowController.cs" />
-    <Compile Include="Assets\scripts\enemyController.cs" />
+    <Compile Include="Assets\scripts\AnimController.cs" />
+    <Compile Include="Assets\scripts\cameraController.cs" />
+    <Compile Include="Assets\scripts\enemyControl.cs" />
     <Compile Include="Assets\scripts\PlayerController.cs" />
-    <Compile Include="Assets\scripts\switchWeapons.cs" />
     <Compile Include="Assets\scripts\swordController.cs" />
   </ItemGroup>
   <ItemGroup>
