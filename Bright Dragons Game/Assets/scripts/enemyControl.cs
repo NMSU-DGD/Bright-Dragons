@@ -9,12 +9,15 @@ public class enemyControl : MonoBehaviour
     public float speed;
     private Transform target;
     private float distance;
+   
+    
 
 	// Use this for initialization
 	void Start ()
     {
         // set the target to be the player
-        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();	
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+       
 	}
 	
 	// Update is called once per frame
@@ -27,4 +30,5 @@ public class enemyControl : MonoBehaviour
         if(distance <= chaseRange)
         transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
 	}
+
 }
