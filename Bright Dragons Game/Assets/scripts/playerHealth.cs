@@ -13,8 +13,24 @@ public class playerHealth : MonoBehaviour
         currentHealth = Health;
     }
 
+    private void Update()
+    {
+       // print(Health);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+       
+        if(other.gameObject.CompareTag("enemy"))
+        {
+            TakeDamage(10);
+            print(currentHealth);
+        }
+    }
+    
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
     }
+    
 }

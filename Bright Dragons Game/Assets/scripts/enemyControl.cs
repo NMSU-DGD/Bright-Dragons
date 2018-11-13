@@ -27,8 +27,8 @@ public class enemyControl : MonoBehaviour
         distance = Vector2.Distance(transform.position, target.position);
 
         //if the player is close enough to the enemy chase
-        if(distance <= chaseRange)
-        transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+      //  if(distance <= chaseRange)
+       // transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
 	}
 
 }
