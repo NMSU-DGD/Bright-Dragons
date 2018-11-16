@@ -394,6 +394,7 @@
     <Compile Include="Packages\com.unity.package-manager-ui\Editor\Sources\UI\PackagesLoading.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TimeFantasy_RPG_Tiles\READ_ME.txt" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />
