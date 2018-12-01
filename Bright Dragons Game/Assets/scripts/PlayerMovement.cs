@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerMovement: MonoBehaviour
 {
-
+    public int health;
     public float speed;
     private Rigidbody2D rb2d;       
 
@@ -25,5 +25,16 @@ public class PlayerMovement: MonoBehaviour
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
 
         rb2d.AddForce(movement * speed);
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "enemy")
+        {
+            takeDamage(10);
+        }
+    }
+    void takeDamage(int damage)
+    {
+        health = health - damage;
     }
 }
