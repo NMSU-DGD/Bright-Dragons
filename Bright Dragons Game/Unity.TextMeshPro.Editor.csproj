@@ -395,6 +395,9 @@
     <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMPro_TexturePostProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\DialogueSystemManager\Instructions.txt" />
+    <None Include="Assets\DialogueSystemManager\Resources\XML\Conversations-Demo.xml" />
+    <None Include="Assets\DialogueSystemManager\Resources\XML\Notifications-Demo.xml" />
     <None Include="Assets\TimeFantasy_RPG_Tiles\READ_ME.txt" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />

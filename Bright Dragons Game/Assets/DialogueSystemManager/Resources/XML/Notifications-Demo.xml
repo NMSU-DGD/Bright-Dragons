@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<NotificationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Notifications>
+    <Notification ID="1">
+      <Name>Grave's Notification</Name>
+      <Description />
+      <Text>You feel a strange aura coming
+from the grave. Maybe you should
+touch it!</Text>
+      <Starter>Grave</Starter>
+    </Notification>
+  </Notifications>
+</NotificationContainer>

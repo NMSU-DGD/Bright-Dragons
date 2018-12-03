@@ -1,0 +1,53 @@
+Welcome to the DialogueSystemManager Readme.
+
+Tutorial Video Links Here:
+https://youtu.be/BVfSpLMYtZ8
+
+Github Repository for Issue and Wiki Support Here:
+https://github.com/Hyiero/DialogueSystemManager
+
+Instructions for Demo Scene:
+
+In order for the Demo Scene to work you will need to rename the Conversations-Demo in the XML folder under Resources to just Conversations. 
+You will also need to rename the Notifications-Demo in the XML folder under Resources to just Notifications
+Mark them back when you are done with the Demo scene as Conversations.XML and Notifications.XML is produced when saving them from the tool for your own game.
+
+Demo Controls
+Arrow keys to move around
+Once collided with NPC or object press E to start conversation
+Once collided with an npc or object press A and if they have a locked conversation it will unlock. - P.S. The far right npc is the only npc that has a conversation to unlock
+Once you collide with the grave straight in front of the player a notification will pop up, once you leave that collided area it will go away
+
+Instructions for Getting started in Own Project:
+
+It is highly recommended you watch the tutorial video if you are having any troubles.
+
+In order to get the dialogue system manager working for your own project you must first create conversations using the conversation node editor window.
+This can be located underneath the window menu button at the top of the unity editor.
+
+After the conversation node editor window is open. Right click inside the conversation node editor window and click "Create Conversation Node". 
+This will create the base conversation node. The bare minimum you must enter for this first node is the starter. After you have entered a starter you can 
+click the "Add Dialogue" Button which will spawn off a dialogue box. Here you can enter some text. Once you have done this you can right click inside the 
+conversation node editor window and click "Save Conversation". This will generate a conversations.xml in the XML folder under Resources. Go ahead and close the 
+conversation node editor at this point. Then you will put the  DialogueSystem prefab under the Resources/Prefab folder in your scene.
+Call DialogueSystemManager.Instance.StartDialogueForNpc(string nameNpc) in any script passing the name of the npc you put as the starter to your conversation. 
+The system will handle the rest.
+
+Release 1.1 Update Notes:
+
+Notifications were added in this Update. In order to create them you will go to the conversation node editor tool. Right click inside and you will select the "Create Notification Node"
+option. Once you have created and filled in your notification you will right click in the window and select the option "Save Notification". This will generate the Notification.XML
+in the XML folder. Once you have your notification.xml ready in order to see it work in you you will call the method
+DialogueSystemManager.Instance.OpenNotification(starter) passing in the starter you set in the notification.  Once you want this notification to close you will call
+DialogueSystemManager.Instance.CloseNotification() and the notification will close. 
+
+Also the notifications will have the same text speed/alpha and font that you set for the dialogue options. But there is a seperate option for the notifications to take in its 
+own sprite.
+
+Auto continuation was also added in this release. You will see the options "Have Conversations Auto Continue If No Responses" and "Timetill Progress" in the dialogueSystem 
+Gameobject. If you have this option checked any conversation that doesn't have responses tied to it will continue automatically for the player after the timetill progress has expired.
+
+
+Contact/Support Email:
+
+hyierothedeveloper@gmail.com

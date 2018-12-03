@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011689299022}
+  m_IsPrefabAsset: 1
+--- !u!1 &1000011592701802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000013239090324}
+  - component: {fileID: 114000011827315498}
+  m_Layer: 0
+  m_Name: ActionsTakenManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011689299022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000010710888956}
+  - component: {fileID: 114000010097949708}
+  m_Layer: 0
+  m_Name: DialogueSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010710888956
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011689299022}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4000013239090324}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000013239090324
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011592701802}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000010710888956}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000010097949708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011689299022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69483c6f716e3d14eb4592e0d0dd48b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugMode: 1
+  loadNotifications: 1
+  saveToMyDocuments: 1
+  saveToPersistentDataFile: 0
+  haveConversationsAutoContinueIfNoResponses: 0
+  timetillProgress: 0
+  dialogueType: 2
+  showCharacterName: 0
+  displayConversationNameAsPortraitName: 0
+  displaySpeedForDialogue: 2
+  dialogueFont: {fileID: 0}
+  dialogueBoxBackGroundImage: {fileID: 0}
+  notificationBoxBackGroundImage: {fileID: 0}
+  notificationImageType: 0
+  dialogueImageType: 1
+  alphaOfDialoguePanel: 0.67
+  dialogueTextColor: {r: 0, g: 0, b: 0, a: 1}
+  dialogueSelectType: 0
+  continueDialogueButtonSprite: {fileID: 0}
+  continueButtonText: '...'
+  widthOfContinueButton: 64
+  continueButtonFont: {fileID: 0}
+  turnOffResponseButtonBackGroundImage: 0
+  highlightedResponseArea: 1
+  highlightedResponseColor: {r: 0, g: 1, b: 0.25517225, a: 1}
+  responseButtonBackGroundImage: {fileID: 0}
+  responseButtonImageType: 1
+  responseButtonFont: {fileID: 0}
+  responseButtonTextColor: {r: 0, g: 0, b: 0, a: 1}
+  responseButtonColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114000011827315498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011592701802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4039ae853c901c141a5b8bb0b6a3f081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

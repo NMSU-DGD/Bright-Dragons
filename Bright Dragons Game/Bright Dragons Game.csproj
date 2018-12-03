@@ -315,11 +315,36 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Controllers\DialogueViewController.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Controllers\NotificationViewController.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\DataAccessors\GenericXmlLoader.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\DialogueSystemManager.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Managers\ActionsTakenManager.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Managers\DialogueViewManager.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Managers\NotificationViewManager.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Models\Conversation.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Models\ConversationsContainer.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Models\Dialogue.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Models\Interfaces\IXmlObject.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Models\Notification.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Models\NotificationsContainer.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Models\Response.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Services\DialogueService.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Utils\Constants.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Utils\Singleton.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Views\ContinueButtonView.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Views\DialogueView.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Views\NotificationView.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Code\Views\ResponseButtonView.cs" />
+    <Compile Include="Assets\DialogueSystemManager\Assets\Demo\DemoScripts\Player.cs" />
     <Compile Include="Assets\scripts\enemyControl.cs" />
     <Compile Include="Assets\scripts\PlayerController.cs" />
     <Compile Include="Assets\scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\DialogueSystemManager\Instructions.txt" />
+    <None Include="Assets\DialogueSystemManager\Resources\XML\Conversations-Demo.xml" />
+    <None Include="Assets\DialogueSystemManager\Resources\XML\Notifications-Demo.xml" />
     <None Include="Assets\TimeFantasy_RPG_Tiles\READ_ME.txt" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />

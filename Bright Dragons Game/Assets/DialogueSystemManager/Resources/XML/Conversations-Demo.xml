@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConversationsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Conversations>
+    <Conversation Id="1">
+      <Name>Bob</Name>
+      <Description />
+      <Starter>Bob</Starter>
+      <Repeatable>false</Repeatable>
+      <Completed>false</Completed>
+      <Locked>false</Locked>
+      <Phase>0</Phase>
+      <Dialogues>
+        <Dialogue Id="1">
+          <Text>Hello!</Text>
+          <Responses />
+        </Dialogue>
+        <Dialogue Id="2">
+          <Text>How are you？</Text>
+          <Responses>
+            <Response Id="1">
+              <Text />
+              <NextDialogueId>0</NextDialogueId>
+              <ConversationId>0</ConversationId>
+            </Response>
+          </Responses>
+        </Dialogue>
+      </Dialogues>
+    </Conversation>
+    <Conversation Id="2">
+      <Name />
+      <Description />
+      <Starter>Grave</Starter>
+      <Repeatable>false</Repeatable>
+      <Completed>false</Completed>
+      <Locked>false</Locked>
+      <Phase>0</Phase>
+      <Dialogues>
+        <Dialogue Id="1">
+          <Text>Something wierd about this grave</Text>
+          <Responses>
+            <Response Id="1">
+              <Text>Back away </Text>
+              <ActionTaken />
+              <NextDialogueId>0</NextDialogueId>
+              <ConversationId>0</ConversationId>
+            </Response>
+            <Response Id="2">
+              <Text>Stare at the grave</Text>
+              <ActionTaken />
+              <NextDialogueId>2</NextDialogueId>
+              <ConversationId>0</ConversationId>
+            </Response>
+            <Response Id="3">
+              <Text>Touch the grave</Text>
+              <ActionTaken />
+              <NextDialogueId>3</NextDialogueId>
+              <ConversationId>0</ConversationId>
+            </Response>
+          </Responses>
+        </Dialogue>
+        <Dialogue Id="2">
+          <Text>You feel cold</Text>
+          <Responses>
+            <Response Id="1">
+              <Text />
+              <NextDialogueId>0</NextDialogueId>
+              <ConversationId>0</ConversationId>
+            </Response>
+          </Responses>
+        </Dialogue>
+        <Dialogue Id="3">
+          <Text>Your overcome with fear</Text>
+          <Responses>
+            <Response Id="1">
+              <Text />
+              <NextDialogueId>0</NextDialogueId>
+              <ConversationId>0</ConversationId>
+            </Response>
+          </Responses>
+        </Dialogue>
+      </Dialogues>
+    </Conversation>
+    <Conversation Id="3">
+      <Name />
+      <Description />
+      <Starter>Dave</Starter>
+      <Repeatable>true</Repeatable>
+      <Completed>false</Completed>
+      <Locked>false</Locked>
+      <Phase>0</Phase>
+      <Dialogues>
+        <Dialogue Id="1">
+          <Text>My name is Dave</Text>
+          <Responses>
+            <Response Id="1">
+              <Text />
+              <NextDialogueId>0</NextDialogueId>
+              <ConversationId>0</ConversationId>
+            </Response>
+          </Responses>
+        </Dialogue>
+      </Dialogues>
+    </Conversation>
+    <Conversation Id="4">
+      <Name />
+      <Description />
+      <Starter>Dave</Starter>
+      <Repeatable>false</Repeatable>
+      <Completed>false</Completed>
+      <Locked>true</Locked>
+      <Phase>1</Phase>
+      <Dialogues>
+        <Dialogue Id="1">
+          <Text>Who are you!?</Text>
+          <Responses>
+            <Response Id="1">
+              <Text />
+              <NextDialogueId>0</NextDialogueId>
+              <ConversationId>0</ConversationId>
+            </Response>
+          </Responses>
+        </Dialogue>
+      </Dialogues>
+    </Conversation>
+    <Conversation Id="5">
+      <Name />
+      <Description />
+      <Starter>Dave</Starter>
+      <Repeatable>true</Repeatable>
+      <Completed>false</Completed>
+      <Locked>false</Locked>
+      <Phase>0</Phase>
+      <Dialogues>
+        <Dialogue Id="1">
+          <Text>Donuts</Text>
+          <Responses>
+            <Response Id="1">
+              <Text />
+              <NextDialogueId>0</NextDialogueId>
+              <ConversationId>0</ConversationId>
+            </Response>
+          </Responses>
+        </Dialogue>
+      </Dialogues>
+    </Conversation>
+    <Conversation Id="6">
+      <Name>Martha</Name>
+      <Description />
+      <Starter>Holly</Starter>
+      <Repeatable>false</Repeatable>
+      <Completed>false</Completed>
+      <Locked>false</Locked>
+      <Phase>0</Phase>
+      <Dialogues>
+        <Dialogue Id="1">
+          <Text>Hello, can I shake your hand!?</Text>
+          <Responses>
+            <Response Id="1">
+              <Text />
+              <ActionTaken>Handshake</ActionTaken>
+              <NextDialogueId>2</NextDialogueId>
+              <ConversationId>0</ConversationId>
+            </Response>
+          </Responses>
+        </Dialogue>
+        <Dialogue Id="2">
+          <Text>Thanks!</Text>
+          <Responses>
+            <Response Id="1">
+              <Text> </Text>
+              <NextDialogueId>0</NextDialogueId>
+              <ConversationId>0</ConversationId>
+            </Response>
+          </Responses>
+        </Dialogue>
+      </Dialogues>
+    </Conversation>
+  </Conversations>
+</ConversationsCollection>
